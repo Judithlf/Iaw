@@ -1,0 +1,19 @@
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #9fe9ff; /* Color de fondo de las cabeceras */
+}
+.divisible {
+    background-color: #ffffa0; /* Color amarillo claro para celdas divisibles */
+}
+.not-divisible {
+    background-color: #ffa0a0; /* Color rosa claro para celdas no divisibles */
+}
